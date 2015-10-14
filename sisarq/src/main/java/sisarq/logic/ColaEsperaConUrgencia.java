@@ -15,11 +15,11 @@ public class ColaEsperaConUrgencia {
 	private static class DatosCliente implements Comparable <DatosCliente>{
 	
 		Cliente c;
-		Urgencia urg;
+		Criticidad urg;
 		
-		DatosCliente (Cliente c, Urgencia urg) {
+		DatosCliente (Cliente c) {
 			this.c=c;
-			this.urg=urg;
+			this.urg=c.getCriticidad();
 		}
 	
 		/**
@@ -46,8 +46,8 @@ public class ColaEsperaConUrgencia {
 	/**
 	* Nuevo cliente; se mete en la cola de espera
 	*/
-	public void nuevoCliente (Cliente c, Urgencia urg){
-		DatosCliente datos=new DatosCliente(c,urg);
+	public void nuevoCliente (Cliente c){
+		DatosCliente datos=new DatosCliente(c);
 		colaEspera.add(datos);
 	}
 
@@ -71,7 +71,7 @@ public class ColaEsperaConUrgencia {
 
 	
 		for (DatosCliente datos:colaEspera) {
-			estado = estado+ "\n"+datos.c+" urgencia: "+datos.urg;
+			estado = estado+ "\n"+datos.c+" criticidad: "+datos.urg;
 		}
 		return estado;
 	}
