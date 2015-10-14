@@ -22,13 +22,8 @@ public class CalculadorMejoresClinicas {
 		int preferenciaDist= -1;
 		int preferenciaTiempo= -1;
 		for (Clinica clinica : clinicas) {
-//			Random rnd = new Random();
-//			int randmVal= rnd.nextInt(5);
-//			clinica.setNumeroDoctores(randmVal);
-//			randmVal= rnd.nextInt(30);
-//			clinica.setNumeroPacientes(randmVal);
 			distancia= CalculadorDistancia.getDistancia(clinica.getPosx(), clinica.getPosy(), pacientex, pacientey);
-			tiempoEspera= CalculadorTiempoEspera.getTiempoEsperaEnMinutos(clinica.getNumeroPacientes(), clinica.getNumeroDoctores());
+			tiempoEspera= clinica.getTiempoEspera();
 			preferenciaDist= analizarDistancia(distancia);
 			preferenciaTiempo= analizarTiempoEspera(tiempoEspera);
 			if(preferenciaDist!=-1 && preferenciaTiempo!=-1 && clinicasEmergencia.size()<3){
@@ -68,9 +63,9 @@ public class CalculadorMejoresClinicas {
 	
 	public static void main(String[] args) {
 		CalculadorMejoresClinicas calc= new CalculadorMejoresClinicas();
-		ArrayList<ClinicaEmergencia> clinicasEmergenica= calc.getMejoresClinicas(11,45);
+		ArrayList<ClinicaEmergencia> clinicasEmergencia= calc.getMejoresClinicas(11,45);
 		System.out.println("CLINICAS EMERGENCIA");
-		for (ClinicaEmergencia clinicaEmergencia : clinicasEmergenica) {
+		for (ClinicaEmergencia clinicaEmergencia : clinicasEmergencia) {
 			System.out.println(clinicaEmergencia.getClinica().getNombre() + "::: " + clinicaEmergencia.getPreferencia());
 		}
 	}

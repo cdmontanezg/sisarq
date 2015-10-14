@@ -1,21 +1,25 @@
 package sisarq.logic;
 
 import java.util.ArrayList;
+import java.util.Random;
 
 public class Clinica {
 
 	private static ArrayList<Clinica> clinicasList;
 
 	String nombre;
+	int id;
 	float posx;
 	float posy;
 	int numeroPacientes;
 	int numeroDoctores;
+    int tiempoEspera;
 	
-	public Clinica(float posx, float posy, String nombre){
+	public Clinica(float posx, float posy, String nombre, int id){
 		this.nombre=nombre;
 		this.posx=posx;
 		this.posy=posy;
+		this.id = id;
 		numeroDoctores= 0;
 		numeroPacientes= 0;
 	}
@@ -35,31 +39,39 @@ public class Clinica {
 	public void setNumeroDoctores(int numeroDoctores) {
 		this.numeroDoctores = numeroDoctores;
 	}
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
+    public int getTiempoEspera() {
+        return tiempoEspera;
+    }
+
+    public void setTiempoEspera(int tiempoEspera) {
+        this.tiempoEspera = tiempoEspera;
+    }
 
 	public static ArrayList<Clinica> getClinicasList() {
 		if(clinicasList==null){
 			clinicasList = new ArrayList<>();
-			Clinica clin= new Clinica(10, 10, "Clinica 1");
-			clinicasList.add(clin);
-			clin= new Clinica(20, 20, "Clinica 2");
-			clinicasList.add(clin);
-			clin= new Clinica(16, 10, "Clinica 3");
-			clinicasList.add(clin);
-			clin= new Clinica(54, 37, "Clinica 4");
-			clinicasList.add(clin);
-			clin= new Clinica(18, 88, "Clinica 5");
-			clinicasList.add(clin);
-			clin= new Clinica(8, 11, "Clinica 6");
-			clinicasList.add(clin);
-			clin= new Clinica(15, 9, "Clinica 7");
-			clinicasList.add(clin);
-			clin= new Clinica(9, 12, "Clinica 8");
-			clinicasList.add(clin);
-			clin= new Clinica(33, 21, "Clinica 9");
-			clinicasList.add(clin);
+			for (int i = 0; i < 1000; i++) {
+				Random rnd = new Random();
+				Clinica clin= new Clinica(rnd.nextInt(1000), rnd.nextInt(1000), "Clinica "+i, i);
+				clinicasList.add(clin);
+			}
 		}
 		return clinicasList;
 	}
+
+    public static void actualizarClinica(int id, int pacientes, int doctores){
+        clinicasList.get(id).setNumeroDoctores(doctores);
+        clinicasList.get(id).setNumeroPacientes(pacientes);
+        clinicasList.get(id).setTiempoEspera(CalculadorTiempoEspera.getTiempoEsperaEnMinutos(pacientes, doctores));
+    }
 
 	public String getNombre() {
 		return nombre;
