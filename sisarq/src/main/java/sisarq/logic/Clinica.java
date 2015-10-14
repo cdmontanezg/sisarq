@@ -7,6 +7,8 @@ public class Clinica {
 
 	private static ArrayList<Clinica> clinicasList;
 
+    private static final int NUM_CLINICAS = 80;
+
 	String nombre;
 	int id;
 	float posx;
@@ -58,9 +60,9 @@ public class Clinica {
 	public static ArrayList<Clinica> getClinicasList() {
 		if(clinicasList==null){
 			clinicasList = new ArrayList<>();
-			for (int i = 0; i < 1000; i++) {
+			for (int i = 0; i < NUM_CLINICAS; i++) {
 				Random rnd = new Random();
-				Clinica clin= new Clinica(rnd.nextInt(1000), rnd.nextInt(1000), "Clinica "+i, i);
+				Clinica clin= new Clinica(rnd.nextInt(NUM_CLINICAS), rnd.nextInt(NUM_CLINICAS), "Clinica "+i, i);
 				clinicasList.add(clin);
 			}
 		}
