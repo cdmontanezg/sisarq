@@ -70,6 +70,7 @@ public class Clinica {
 	}
 
     public static void actualizarClinica(int id, int pacientes, int doctores){
+        getClinicasList();
         clinicasList.get(id).setNumeroDoctores(doctores);
         clinicasList.get(id).setNumeroPacientes(pacientes);
         clinicasList.get(id).setTiempoEspera(CalculadorTiempoEspera.getTiempoEsperaEnMinutos(pacientes, doctores));
