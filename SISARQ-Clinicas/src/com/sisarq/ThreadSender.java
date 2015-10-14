@@ -6,7 +6,7 @@ import java.util.Random;
  * Created by andre on 14/10/2015.
  */
 public class ThreadSender implements Runnable {
-    public static final String BASE_URL = "localhost:8080/sisarq/rest/receptor/";
+    public static final String BASE_URL = "http://localhost:8080/sisarq/rest/receptor/";
     private static final int NUM_CLINICAS = 80;
 
     @Override
