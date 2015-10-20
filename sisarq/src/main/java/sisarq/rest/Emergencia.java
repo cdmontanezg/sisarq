@@ -2,6 +2,7 @@ package sisarq.rest;
 
 import java.util.ArrayList;
 import java.util.Date;
+import java.util.Random;
 
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
@@ -14,19 +15,22 @@ import com.sun.security.ntlm.Client;
 import sisarq.logic.CalculadorDistancia;
 import sisarq.logic.CalculadorMejoresClinicas;
 import sisarq.logic.Cliente;
+import sisarq.logic.Clinica;
 import sisarq.logic.ClinicaEmergencia;
 import sisarq.logic.ColaEsperaConUrgencia;
 import sisarq.logic.Criticidad;
 
 @Path("/emergencia/")
 public class Emergencia {
+	
+	private static ColaEsperaConUrgencia colaPrioridad;// =
 
 	@GET
 	@Produces("text/html")
     @Path("{id}/{x}/{y}")
 	public Response getStartingPage(@PathParam("id") String id, @PathParam("x") float x, @PathParam("y") float y)
 	{
-		ColaEsperaConUrgencia colaPrioridad = new ColaEsperaConUrgencia();
+		
 		Cliente cliente = new Cliente();
 		cliente.setDocumento(Double.valueOf(id));
 		cliente.setNombre("Nombre Prueba");
@@ -35,10 +39,10 @@ public class Emergencia {
 		cliente.setUbicacionX(x);
 		cliente.setUbicacionY(y);
 		
-		colaPrioridad.nuevoCliente(cliente);
+		getColaPrioridad().nuevoCliente(cliente);
 		String respuesta =  "<h1>Estado de la cola<h1>" + colaPrioridad.muestraEstado();
 		
-		Cliente clienteatender = colaPrioridad.atenderCliente();
+		Cliente clienteatender = getColaPrioridad().atenderCliente();
 		
 		CalculadorMejoresClinicas calculador= new CalculadorMejoresClinicas();
 		
@@ -54,5 +58,12 @@ public class Emergencia {
 		
 		respuesta = respuesta+"<h1>Estado de la cola<h1>" + colaPrioridad.muestraEstado();
 		return Response.status(200).entity(respuesta).build();
+	}
+	
+	public static ColaEsperaConUrgencia getColaPrioridad() {
+		if(colaPrioridad==null){
+			colaPrioridad =  new ColaEsperaConUrgencia();
+		}
+		return colaPrioridad;
 	}
 }
