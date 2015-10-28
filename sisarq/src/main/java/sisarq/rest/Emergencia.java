@@ -23,26 +23,40 @@ import sisarq.logic.Criticidad;
 @Path("/emergencia/")
 public class Emergencia {
 	
-	private static ColaEsperaConUrgencia colaPrioridad;// =
+	private static Criticidad [] arregloCriticidad = new Criticidad[]{Criticidad.c1,Criticidad.c2,Criticidad.c3,Criticidad.c4,
+			Criticidad.c5,Criticidad.c6,Criticidad.c7,Criticidad.c8,Criticidad.c9,Criticidad.c10};
 
+	private static ColaEsperaConUrgencia colaPrioridadAlta;// =
+	
+	private static ColaEsperaConUrgencia colaPrioridadBaja;
+	
+	Random randomGenerator = new Random();
+	
 	@GET
 	@Produces("text/html")
     @Path("{id}/{x}/{y}")
 	public Response getStartingPage(@PathParam("id") String id, @PathParam("x") float x, @PathParam("y") float y)
 	{
 		
+		
 		Cliente cliente = new Cliente();
 		cliente.setDocumento(Double.valueOf(id));
 		cliente.setNombre("Nombre Prueba");
 		cliente.setApellido("Apellido Prueba");
-		cliente.setCriticidad(Criticidad.c10);	
+		
+		cliente.setCriticidad(arregloCriticidad[randomGenerator.nextInt(10)]);	
 		cliente.setUbicacionX(x);
 		cliente.setUbicacionY(y);
 		
-		getColaPrioridad().nuevoCliente(cliente);
-		String respuesta =  "<h1>Estado de la cola<h1>" + colaPrioridad.muestraEstado();
+		if(cliente.getCriticidad().compareTo(Criticidad.c4)<0){
+			getColaPrioridadAlta().nuevoCliente(cliente);
+		} else {
+			getColaPrioridadBaja().nuevoCliente(cliente);
+		}
 		
-		Cliente clienteatender = getColaPrioridad().atenderCliente();
+		String respuesta =  "<h1>Estado de la cola<h1>" + colaPrioridadAlta.muestraEstado();
+		
+		Cliente clienteatender = getColaPrioridadAlta().atenderCliente();
 		
 		CalculadorMejoresClinicas calculador= new CalculadorMejoresClinicas();
 		
@@ -51,19 +65,26 @@ public class Emergencia {
 		
 		int i=0;
 		for (ClinicaEmergencia clinicaEmergencia : clinicas) {
-			respuesta = respuesta +"<br>Clinica Disponible "+i+": "+clinicaEmergencia.getClinica().getNombre()+"::: " + clinicaEmergencia.getPreferencia();
+			respuesta = respuesta +"<br>Clinica Disponible "+i+ ": "+clinicaEmergencia.getClinica().getNombre()+"::: " + clinicaEmergencia.getPreferencia();
 			i++;
 		}
 		respuesta = respuesta +"<br>";
 		
-		respuesta = respuesta+"<h1>Estado de la cola<h1>" + colaPrioridad.muestraEstado();
+		respuesta = respuesta+"<h1>Estado de la cola<h1>" + colaPrioridadAlta.muestraEstado();
 		return Response.status(200).entity(respuesta).build();
 	}
 	
-	public static ColaEsperaConUrgencia getColaPrioridad() {
-		if(colaPrioridad==null){
-			colaPrioridad =  new ColaEsperaConUrgencia();
+	public static ColaEsperaConUrgencia getColaPrioridadAlta() {
+		if(colaPrioridadAlta==null){
+			colaPrioridadAlta =  new ColaEsperaConUrgencia();
 		}
-		return colaPrioridad;
+		return colaPrioridadAlta;
+	}
+	public static ColaEsperaConUrgencia getColaPrioridadBaja() {
+		if(colaPrioridadBaja==null){
+			colaPrioridadBaja =  new ColaEsperaConUrgencia();
+		}
+		return colaPrioridadBaja;
 	}
 }
+
