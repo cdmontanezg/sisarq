@@ -3,6 +3,8 @@ package sisarq.logic;
 import java.util.ArrayList;
 import java.util.Random;
 
+import sisarg.log.FormatterExample;
+
 public class Clinica {
 
 	private static ArrayList<Clinica> clinicasList;
@@ -70,6 +72,7 @@ public class Clinica {
 	}
 
     public static void actualizarClinica(int id, int pacientes, int doctores){
+    	FormatterExample.LOGGER.info("Actualizar Clínica <Pacientes: " + pacientes + "> <Doctores: " + doctores + ">");
         getClinicasList();
         clinicasList.get(id).setNumeroDoctores(doctores);
         clinicasList.get(id).setNumeroPacientes(pacientes);

@@ -1,0 +1,241 @@
+[INFO] 1::sisarq.logic.CalculadorMejoresClinicas::getMejoresClinicas::Sun Nov 08 01:43:49 COT 2015::Obtener mejores clínicas: <Posición paciente: 11.0, 45.0 >
+[INFO] 1::sisarq.logic.CalculadorDistancia::getDistancia::Sun Nov 08 01:43:49 COT 2015::Distancia = 34
+[INFO] 1::sisarq.logic.CalculadorMejoresClinicas::analizarDistancia::Sun Nov 08 01:43:49 COT 2015::Analizar distancia: 34
+[INFO] 1::sisarq.logic.CalculadorMejoresClinicas::analizarTiempoEspera::Sun Nov 08 01:43:49 COT 2015::Analizar tiempo espera: 0
+[INFO] 1::sisarq.logic.CalculadorDistancia::getDistancia::Sun Nov 08 01:43:49 COT 2015::Distancia = 18
+[INFO] 1::sisarq.logic.CalculadorMejoresClinicas::analizarDistancia::Sun Nov 08 01:43:49 COT 2015::Analizar distancia: 18
+[INFO] 1::sisarq.logic.CalculadorMejoresClinicas::analizarTiempoEspera::Sun Nov 08 01:43:49 COT 2015::Analizar tiempo espera: 0
+[INFO] 1::sisarq.logic.CalculadorDistancia::getDistancia::Sun Nov 08 01:43:49 COT 2015::Distancia = 36
+[INFO] 1::sisarq.logic.CalculadorMejoresClinicas::analizarDistancia::Sun Nov 08 01:43:49 COT 2015::Analizar distancia: 36
+[INFO] 1::sisarq.logic.CalculadorMejoresClinicas::analizarTiempoEspera::Sun Nov 08 01:43:49 COT 2015::Analizar tiempo espera: 0
+[INFO] 1::sisarq.logic.CalculadorDistancia::getDistancia::Sun Nov 08 01:43:49 COT 2015::Distancia = 8
+[INFO] 1::sisarq.logic.CalculadorMejoresClinicas::analizarDistancia::Sun Nov 08 01:43:49 COT 2015::Analizar distancia: 8
+[INFO] 1::sisarq.logic.CalculadorMejoresClinicas::analizarTiempoEspera::Sun Nov 08 01:43:49 COT 2015::Analizar tiempo espera: 0
+[INFO] 1::sisarq.logic.CalculadorDistancia::getDistancia::Sun Nov 08 01:43:49 COT 2015::Distancia = 61
+[INFO] 1::sisarq.logic.CalculadorMejoresClinicas::analizarDistancia::Sun Nov 08 01:43:49 COT 2015::Analizar distancia: 61
+[INFO] 1::sisarq.logic.CalculadorMejoresClinicas::analizarTiempoEspera::Sun Nov 08 01:43:49 COT 2015::Analizar tiempo espera: 0
+[INFO] 1::sisarq.logic.CalculadorDistancia::getDistancia::Sun Nov 08 01:43:49 COT 2015::Distancia = 8
+[INFO] 1::sisarq.logic.CalculadorMejoresClinicas::analizarDistancia::Sun Nov 08 01:43:49 COT 2015::Analizar distancia: 8
+[INFO] 1::sisarq.logic.CalculadorMejoresClinicas::analizarTiempoEspera::Sun Nov 08 01:43:49 COT 2015::Analizar tiempo espera: 0
+[INFO] 1::sisarq.logic.CalculadorDistancia::getDistancia::Sun Nov 08 01:43:49 COT 2015::Distancia = 63
+[INFO] 1::sisarq.logic.CalculadorMejoresClinicas::analizarDistancia::Sun Nov 08 01:43:49 COT 2015::Analizar distancia: 63
+[INFO] 1::sisarq.logic.CalculadorMejoresClinicas::analizarTiempoEspera::Sun Nov 08 01:43:49 COT 2015::Analizar tiempo espera: 0
+[INFO] 1::sisarq.logic.CalculadorDistancia::getDistancia::Sun Nov 08 01:43:49 COT 2015::Distancia = 35
+[INFO] 1::sisarq.logic.CalculadorMejoresClinicas::analizarDistancia::Sun Nov 08 01:43:49 COT 2015::Analizar distancia: 35
+[INFO] 1::sisarq.logic.CalculadorMejoresClinicas::analizarTiempoEspera::Sun Nov 08 01:43:49 COT 2015::Analizar tiempo espera: 0
+[INFO] 1::sisarq.logic.CalculadorDistancia::getDistancia::Sun Nov 08 01:43:49 COT 2015::Distancia = 48
+[INFO] 1::sisarq.logic.CalculadorMejoresClinicas::analizarDistancia::Sun Nov 08 01:43:49 COT 2015::Analizar distancia: 48
+[INFO] 1::sisarq.logic.CalculadorMejoresClinicas::analizarTiempoEspera::Sun Nov 08 01:43:49 COT 2015::Analizar tiempo espera: 0
+[INFO] 1::sisarq.logic.CalculadorDistancia::getDistancia::Sun Nov 08 01:43:49 COT 2015::Distancia = 60
+[INFO] 1::sisarq.logic.CalculadorMejoresClinicas::analizarDistancia::Sun Nov 08 01:43:49 COT 2015::Analizar distancia: 60
+[INFO] 1::sisarq.logic.CalculadorMejoresClinicas::analizarTiempoEspera::Sun Nov 08 01:43:49 COT 2015::Analizar tiempo espera: 0
+[INFO] 1::sisarq.logic.CalculadorDistancia::getDistancia::Sun Nov 08 01:43:49 COT 2015::Distancia = 55
+[INFO] 1::sisarq.logic.CalculadorMejoresClinicas::analizarDistancia::Sun Nov 08 01:43:49 COT 2015::Analizar distancia: 55
+[INFO] 1::sisarq.logic.CalculadorMejoresClinicas::analizarTiempoEspera::Sun Nov 08 01:43:49 COT 2015::Analizar tiempo espera: 0
+[INFO] 1::sisarq.logic.CalculadorDistancia::getDistancia::Sun Nov 08 01:43:49 COT 2015::Distancia = 60
+[INFO] 1::sisarq.logic.CalculadorMejoresClinicas::analizarDistancia::Sun Nov 08 01:43:49 COT 2015::Analizar distancia: 60
+[INFO] 1::sisarq.logic.CalculadorMejoresClinicas::analizarTiempoEspera::Sun Nov 08 01:43:49 COT 2015::Analizar tiempo espera: 0
+[INFO] 1::sisarq.logic.CalculadorDistancia::getDistancia::Sun Nov 08 01:43:49 COT 2015::Distancia = 46
+[INFO] 1::sisarq.logic.CalculadorMejoresClinicas::analizarDistancia::Sun Nov 08 01:43:49 COT 2015::Analizar distancia: 46
+[INFO] 1::sisarq.logic.CalculadorMejoresClinicas::analizarTiempoEspera::Sun Nov 08 01:43:49 COT 2015::Analizar tiempo espera: 0
+[INFO] 1::sisarq.logic.CalculadorDistancia::getDistancia::Sun Nov 08 01:43:49 COT 2015::Distancia = 45
+[INFO] 1::sisarq.logic.CalculadorMejoresClinicas::analizarDistancia::Sun Nov 08 01:43:49 COT 2015::Analizar distancia: 45
+[INFO] 1::sisarq.logic.CalculadorMejoresClinicas::analizarTiempoEspera::Sun Nov 08 01:43:49 COT 2015::Analizar tiempo espera: 0
+[INFO] 1::sisarq.logic.CalculadorDistancia::getDistancia::Sun Nov 08 01:43:49 COT 2015::Distancia = 13
+[INFO] 1::sisarq.logic.CalculadorMejoresClinicas::analizarDistancia::Sun Nov 08 01:43:49 COT 2015::Analizar distancia: 13
+[INFO] 1::sisarq.logic.CalculadorMejoresClinicas::analizarTiempoEspera::Sun Nov 08 01:43:49 COT 2015::Analizar tiempo espera: 0
+[INFO] 1::sisarq.logic.CalculadorDistancia::getDistancia::Sun Nov 08 01:43:49 COT 2015::Distancia = 46
+[INFO] 1::sisarq.logic.CalculadorMejoresClinicas::analizarDistancia::Sun Nov 08 01:43:49 COT 2015::Analizar distancia: 46
+[INFO] 1::sisarq.logic.CalculadorMejoresClinicas::analizarTiempoEspera::Sun Nov 08 01:43:49 COT 2015::Analizar tiempo espera: 0
+[INFO] 1::sisarq.logic.CalculadorDistancia::getDistancia::Sun Nov 08 01:43:49 COT 2015::Distancia = 18
+[INFO] 1::sisarq.logic.CalculadorMejoresClinicas::analizarDistancia::Sun Nov 08 01:43:49 COT 2015::Analizar distancia: 18
+[INFO] 1::sisarq.logic.CalculadorMejoresClinicas::analizarTiempoEspera::Sun Nov 08 01:43:49 COT 2015::Analizar tiempo espera: 0
+[INFO] 1::sisarq.logic.CalculadorDistancia::getDistancia::Sun Nov 08 01:43:49 COT 2015::Distancia = 43
+[INFO] 1::sisarq.logic.CalculadorMejoresClinicas::analizarDistancia::Sun Nov 08 01:43:49 COT 2015::Analizar distancia: 43
+[INFO] 1::sisarq.logic.CalculadorMejoresClinicas::analizarTiempoEspera::Sun Nov 08 01:43:49 COT 2015::Analizar tiempo espera: 0
+[INFO] 1::sisarq.logic.CalculadorDistancia::getDistancia::Sun Nov 08 01:43:49 COT 2015::Distancia = 57
+[INFO] 1::sisarq.logic.CalculadorMejoresClinicas::analizarDistancia::Sun Nov 08 01:43:49 COT 2015::Analizar distancia: 57
+[INFO] 1::sisarq.logic.CalculadorMejoresClinicas::analizarTiempoEspera::Sun Nov 08 01:43:49 COT 2015::Analizar tiempo espera: 0
+[INFO] 1::sisarq.logic.CalculadorDistancia::getDistancia::Sun Nov 08 01:43:49 COT 2015::Distancia = 3
+[INFO] 1::sisarq.logic.CalculadorMejoresClinicas::analizarDistancia::Sun Nov 08 01:43:49 COT 2015::Analizar distancia: 3
+[INFO] 1::sisarq.logic.CalculadorMejoresClinicas::analizarTiempoEspera::Sun Nov 08 01:43:49 COT 2015::Analizar tiempo espera: 0
+[INFO] 1::sisarq.logic.CalculadorDistancia::getDistancia::Sun Nov 08 01:43:49 COT 2015::Distancia = 39
+[INFO] 1::sisarq.logic.CalculadorMejoresClinicas::analizarDistancia::Sun Nov 08 01:43:49 COT 2015::Analizar distancia: 39
+[INFO] 1::sisarq.logic.CalculadorMejoresClinicas::analizarTiempoEspera::Sun Nov 08 01:43:49 COT 2015::Analizar tiempo espera: 0
+[INFO] 1::sisarq.logic.CalculadorDistancia::getDistancia::Sun Nov 08 01:43:49 COT 2015::Distancia = 21
+[INFO] 1::sisarq.logic.CalculadorMejoresClinicas::analizarDistancia::Sun Nov 08 01:43:49 COT 2015::Analizar distancia: 21
+[INFO] 1::sisarq.logic.CalculadorMejoresClinicas::analizarTiempoEspera::Sun Nov 08 01:43:49 COT 2015::Analizar tiempo espera: 0
+[INFO] 1::sisarq.logic.CalculadorDistancia::getDistancia::Sun Nov 08 01:43:49 COT 2015::Distancia = 50
+[INFO] 1::sisarq.logic.CalculadorMejoresClinicas::analizarDistancia::Sun Nov 08 01:43:49 COT 2015::Analizar distancia: 50
+[INFO] 1::sisarq.logic.CalculadorMejoresClinicas::analizarTiempoEspera::Sun Nov 08 01:43:49 COT 2015::Analizar tiempo espera: 0
+[INFO] 1::sisarq.logic.CalculadorDistancia::getDistancia::Sun Nov 08 01:43:49 COT 2015::Distancia = 66
+[INFO] 1::sisarq.logic.CalculadorMejoresClinicas::analizarDistancia::Sun Nov 08 01:43:49 COT 2015::Analizar distancia: 66
+[INFO] 1::sisarq.logic.CalculadorMejoresClinicas::analizarTiempoEspera::Sun Nov 08 01:43:49 COT 2015::Analizar tiempo espera: 0
+[INFO] 1::sisarq.logic.CalculadorDistancia::getDistancia::Sun Nov 08 01:43:49 COT 2015::Distancia = 63
+[INFO] 1::sisarq.logic.CalculadorMejoresClinicas::analizarDistancia::Sun Nov 08 01:43:49 COT 2015::Analizar distancia: 63
+[INFO] 1::sisarq.logic.CalculadorMejoresClinicas::analizarTiempoEspera::Sun Nov 08 01:43:49 COT 2015::Analizar tiempo espera: 0
+[INFO] 1::sisarq.logic.CalculadorDistancia::getDistancia::Sun Nov 08 01:43:49 COT 2015::Distancia = 45
+[INFO] 1::sisarq.logic.CalculadorMejoresClinicas::analizarDistancia::Sun Nov 08 01:43:49 COT 2015::Analizar distancia: 45
+[INFO] 1::sisarq.logic.CalculadorMejoresClinicas::analizarTiempoEspera::Sun Nov 08 01:43:49 COT 2015::Analizar tiempo espera: 0
+[INFO] 1::sisarq.logic.CalculadorDistancia::getDistancia::Sun Nov 08 01:43:49 COT 2015::Distancia = 16
+[INFO] 1::sisarq.logic.CalculadorMejoresClinicas::analizarDistancia::Sun Nov 08 01:43:49 COT 2015::Analizar distancia: 16
+[INFO] 1::sisarq.logic.CalculadorMejoresClinicas::analizarTiempoEspera::Sun Nov 08 01:43:49 COT 2015::Analizar tiempo espera: 0
+[INFO] 1::sisarq.logic.CalculadorDistancia::getDistancia::Sun Nov 08 01:43:49 COT 2015::Distancia = 34
+[INFO] 1::sisarq.logic.CalculadorMejoresClinicas::analizarDistancia::Sun Nov 08 01:43:49 COT 2015::Analizar distancia: 34
+[INFO] 1::sisarq.logic.CalculadorMejoresClinicas::analizarTiempoEspera::Sun Nov 08 01:43:49 COT 2015::Analizar tiempo espera: 0
+[INFO] 1::sisarq.logic.CalculadorDistancia::getDistancia::Sun Nov 08 01:43:49 COT 2015::Distancia = 33
+[INFO] 1::sisarq.logic.CalculadorMejoresClinicas::analizarDistancia::Sun Nov 08 01:43:49 COT 2015::Analizar distancia: 33
+[INFO] 1::sisarq.logic.CalculadorMejoresClinicas::analizarTiempoEspera::Sun Nov 08 01:43:49 COT 2015::Analizar tiempo espera: 0
+[INFO] 1::sisarq.logic.CalculadorDistancia::getDistancia::Sun Nov 08 01:43:49 COT 2015::Distancia = 39
+[INFO] 1::sisarq.logic.CalculadorMejoresClinicas::analizarDistancia::Sun Nov 08 01:43:49 COT 2015::Analizar distancia: 39
+[INFO] 1::sisarq.logic.CalculadorMejoresClinicas::analizarTiempoEspera::Sun Nov 08 01:43:49 COT 2015::Analizar tiempo espera: 0
+[INFO] 1::sisarq.logic.CalculadorDistancia::getDistancia::Sun Nov 08 01:43:49 COT 2015::Distancia = 22
+[INFO] 1::sisarq.logic.CalculadorMejoresClinicas::analizarDistancia::Sun Nov 08 01:43:49 COT 2015::Analizar distancia: 22
+[INFO] 1::sisarq.logic.CalculadorMejoresClinicas::analizarTiempoEspera::Sun Nov 08 01:43:49 COT 2015::Analizar tiempo espera: 0
+[INFO] 1::sisarq.logic.CalculadorDistancia::getDistancia::Sun Nov 08 01:43:49 COT 2015::Distancia = 67
+[INFO] 1::sisarq.logic.CalculadorMejoresClinicas::analizarDistancia::Sun Nov 08 01:43:49 COT 2015::Analizar distancia: 67
+[INFO] 1::sisarq.logic.CalculadorMejoresClinicas::analizarTiempoEspera::Sun Nov 08 01:43:49 COT 2015::Analizar tiempo espera: 0
+[INFO] 1::sisarq.logic.CalculadorDistancia::getDistancia::Sun Nov 08 01:43:49 COT 2015::Distancia = 63
+[INFO] 1::sisarq.logic.CalculadorMejoresClinicas::analizarDistancia::Sun Nov 08 01:43:49 COT 2015::Analizar distancia: 63
+[INFO] 1::sisarq.logic.CalculadorMejoresClinicas::analizarTiempoEspera::Sun Nov 08 01:43:49 COT 2015::Analizar tiempo espera: 0
+[INFO] 1::sisarq.logic.CalculadorDistancia::getDistancia::Sun Nov 08 01:43:49 COT 2015::Distancia = 21
+[INFO] 1::sisarq.logic.CalculadorMejoresClinicas::analizarDistancia::Sun Nov 08 01:43:49 COT 2015::Analizar distancia: 21
+[INFO] 1::sisarq.logic.CalculadorMejoresClinicas::analizarTiempoEspera::Sun Nov 08 01:43:49 COT 2015::Analizar tiempo espera: 0
+[INFO] 1::sisarq.logic.CalculadorDistancia::getDistancia::Sun Nov 08 01:43:49 COT 2015::Distancia = 17
+[INFO] 1::sisarq.logic.CalculadorMejoresClinicas::analizarDistancia::Sun Nov 08 01:43:49 COT 2015::Analizar distancia: 17
+[INFO] 1::sisarq.logic.CalculadorMejoresClinicas::analizarTiempoEspera::Sun Nov 08 01:43:49 COT 2015::Analizar tiempo espera: 0
+[INFO] 1::sisarq.logic.CalculadorDistancia::getDistancia::Sun Nov 08 01:43:49 COT 2015::Distancia = 55
+[INFO] 1::sisarq.logic.CalculadorMejoresClinicas::analizarDistancia::Sun Nov 08 01:43:49 COT 2015::Analizar distancia: 55
+[INFO] 1::sisarq.logic.CalculadorMejoresClinicas::analizarTiempoEspera::Sun Nov 08 01:43:49 COT 2015::Analizar tiempo espera: 0
+[INFO] 1::sisarq.logic.CalculadorDistancia::getDistancia::Sun Nov 08 01:43:49 COT 2015::Distancia = 67
+[INFO] 1::sisarq.logic.CalculadorMejoresClinicas::analizarDistancia::Sun Nov 08 01:43:49 COT 2015::Analizar distancia: 67
+[INFO] 1::sisarq.logic.CalculadorMejoresClinicas::analizarTiempoEspera::Sun Nov 08 01:43:49 COT 2015::Analizar tiempo espera: 0
+[INFO] 1::sisarq.logic.CalculadorDistancia::getDistancia::Sun Nov 08 01:43:49 COT 2015::Distancia = 19
+[INFO] 1::sisarq.logic.CalculadorMejoresClinicas::analizarDistancia::Sun Nov 08 01:43:49 COT 2015::Analizar distancia: 19
+[INFO] 1::sisarq.logic.CalculadorMejoresClinicas::analizarTiempoEspera::Sun Nov 08 01:43:49 COT 2015::Analizar tiempo espera: 0
+[INFO] 1::sisarq.logic.CalculadorDistancia::getDistancia::Sun Nov 08 01:43:49 COT 2015::Distancia = 21
+[INFO] 1::sisarq.logic.CalculadorMejoresClinicas::analizarDistancia::Sun Nov 08 01:43:49 COT 2015::Analizar distancia: 21
+[INFO] 1::sisarq.logic.CalculadorMejoresClinicas::analizarTiempoEspera::Sun Nov 08 01:43:49 COT 2015::Analizar tiempo espera: 0
+[INFO] 1::sisarq.logic.CalculadorDistancia::getDistancia::Sun Nov 08 01:43:49 COT 2015::Distancia = 37
+[INFO] 1::sisarq.logic.CalculadorMejoresClinicas::analizarDistancia::Sun Nov 08 01:43:49 COT 2015::Analizar distancia: 37
+[INFO] 1::sisarq.logic.CalculadorMejoresClinicas::analizarTiempoEspera::Sun Nov 08 01:43:49 COT 2015::Analizar tiempo espera: 0
+[INFO] 1::sisarq.logic.CalculadorDistancia::getDistancia::Sun Nov 08 01:43:49 COT 2015::Distancia = 37
+[INFO] 1::sisarq.logic.CalculadorMejoresClinicas::analizarDistancia::Sun Nov 08 01:43:49 COT 2015::Analizar distancia: 37
+[INFO] 1::sisarq.logic.CalculadorMejoresClinicas::analizarTiempoEspera::Sun Nov 08 01:43:49 COT 2015::Analizar tiempo espera: 0
+[INFO] 1::sisarq.logic.CalculadorDistancia::getDistancia::Sun Nov 08 01:43:49 COT 2015::Distancia = 13
+[INFO] 1::sisarq.logic.CalculadorMejoresClinicas::analizarDistancia::Sun Nov 08 01:43:49 COT 2015::Analizar distancia: 13
+[INFO] 1::sisarq.logic.CalculadorMejoresClinicas::analizarTiempoEspera::Sun Nov 08 01:43:49 COT 2015::Analizar tiempo espera: 0
+[INFO] 1::sisarq.logic.CalculadorDistancia::getDistancia::Sun Nov 08 01:43:49 COT 2015::Distancia = 53
+[INFO] 1::sisarq.logic.CalculadorMejoresClinicas::analizarDistancia::Sun Nov 08 01:43:49 COT 2015::Analizar distancia: 53
+[INFO] 1::sisarq.logic.CalculadorMejoresClinicas::analizarTiempoEspera::Sun Nov 08 01:43:49 COT 2015::Analizar tiempo espera: 0
+[INFO] 1::sisarq.logic.CalculadorDistancia::getDistancia::Sun Nov 08 01:43:49 COT 2015::Distancia = 56
+[INFO] 1::sisarq.logic.CalculadorMejoresClinicas::analizarDistancia::Sun Nov 08 01:43:49 COT 2015::Analizar distancia: 56
+[INFO] 1::sisarq.logic.CalculadorMejoresClinicas::analizarTiempoEspera::Sun Nov 08 01:43:49 COT 2015::Analizar tiempo espera: 0
+[INFO] 1::sisarq.logic.CalculadorDistancia::getDistancia::Sun Nov 08 01:43:49 COT 2015::Distancia = 32
+[INFO] 1::sisarq.logic.CalculadorMejoresClinicas::analizarDistancia::Sun Nov 08 01:43:49 COT 2015::Analizar distancia: 32
+[INFO] 1::sisarq.logic.CalculadorMejoresClinicas::analizarTiempoEspera::Sun Nov 08 01:43:49 COT 2015::Analizar tiempo espera: 0
+[INFO] 1::sisarq.logic.CalculadorDistancia::getDistancia::Sun Nov 08 01:43:49 COT 2015::Distancia = 72
+[INFO] 1::sisarq.logic.CalculadorMejoresClinicas::analizarDistancia::Sun Nov 08 01:43:49 COT 2015::Analizar distancia: 72
+[INFO] 1::sisarq.logic.CalculadorMejoresClinicas::analizarTiempoEspera::Sun Nov 08 01:43:49 COT 2015::Analizar tiempo espera: 0
+[INFO] 1::sisarq.logic.CalculadorDistancia::getDistancia::Sun Nov 08 01:43:49 COT 2015::Distancia = 13
+[INFO] 1::sisarq.logic.CalculadorMejoresClinicas::analizarDistancia::Sun Nov 08 01:43:49 COT 2015::Analizar distancia: 13
+[INFO] 1::sisarq.logic.CalculadorMejoresClinicas::analizarTiempoEspera::Sun Nov 08 01:43:49 COT 2015::Analizar tiempo espera: 0
+[INFO] 1::sisarq.logic.CalculadorDistancia::getDistancia::Sun Nov 08 01:43:49 COT 2015::Distancia = 44
+[INFO] 1::sisarq.logic.CalculadorMejoresClinicas::analizarDistancia::Sun Nov 08 01:43:49 COT 2015::Analizar distancia: 44
+[INFO] 1::sisarq.logic.CalculadorMejoresClinicas::analizarTiempoEspera::Sun Nov 08 01:43:49 COT 2015::Analizar tiempo espera: 0
+[INFO] 1::sisarq.logic.CalculadorDistancia::getDistancia::Sun Nov 08 01:43:49 COT 2015::Distancia = 64
+[INFO] 1::sisarq.logic.CalculadorMejoresClinicas::analizarDistancia::Sun Nov 08 01:43:49 COT 2015::Analizar distancia: 64
+[INFO] 1::sisarq.logic.CalculadorMejoresClinicas::analizarTiempoEspera::Sun Nov 08 01:43:49 COT 2015::Analizar tiempo espera: 0
+[INFO] 1::sisarq.logic.CalculadorDistancia::getDistancia::Sun Nov 08 01:43:49 COT 2015::Distancia = 39
+[INFO] 1::sisarq.logic.CalculadorMejoresClinicas::analizarDistancia::Sun Nov 08 01:43:49 COT 2015::Analizar distancia: 39
+[INFO] 1::sisarq.logic.CalculadorMejoresClinicas::analizarTiempoEspera::Sun Nov 08 01:43:49 COT 2015::Analizar tiempo espera: 0
+[INFO] 1::sisarq.logic.CalculadorDistancia::getDistancia::Sun Nov 08 01:43:49 COT 2015::Distancia = 39
+[INFO] 1::sisarq.logic.CalculadorMejoresClinicas::analizarDistancia::Sun Nov 08 01:43:49 COT 2015::Analizar distancia: 39
+[INFO] 1::sisarq.logic.CalculadorMejoresClinicas::analizarTiempoEspera::Sun Nov 08 01:43:49 COT 2015::Analizar tiempo espera: 0
+[INFO] 1::sisarq.logic.CalculadorDistancia::getDistancia::Sun Nov 08 01:43:49 COT 2015::Distancia = 26
+[INFO] 1::sisarq.logic.CalculadorMejoresClinicas::analizarDistancia::Sun Nov 08 01:43:49 COT 2015::Analizar distancia: 26
+[INFO] 1::sisarq.logic.CalculadorMejoresClinicas::analizarTiempoEspera::Sun Nov 08 01:43:49 COT 2015::Analizar tiempo espera: 0
+[INFO] 1::sisarq.logic.CalculadorDistancia::getDistancia::Sun Nov 08 01:43:49 COT 2015::Distancia = 32
+[INFO] 1::sisarq.logic.CalculadorMejoresClinicas::analizarDistancia::Sun Nov 08 01:43:49 COT 2015::Analizar distancia: 32
+[INFO] 1::sisarq.logic.CalculadorMejoresClinicas::analizarTiempoEspera::Sun Nov 08 01:43:49 COT 2015::Analizar tiempo espera: 0
+[INFO] 1::sisarq.logic.CalculadorDistancia::getDistancia::Sun Nov 08 01:43:49 COT 2015::Distancia = 47
+[INFO] 1::sisarq.logic.CalculadorMejoresClinicas::analizarDistancia::Sun Nov 08 01:43:49 COT 2015::Analizar distancia: 47
+[INFO] 1::sisarq.logic.CalculadorMejoresClinicas::analizarTiempoEspera::Sun Nov 08 01:43:49 COT 2015::Analizar tiempo espera: 0
+[INFO] 1::sisarq.logic.CalculadorDistancia::getDistancia::Sun Nov 08 01:43:49 COT 2015::Distancia = 22
+[INFO] 1::sisarq.logic.CalculadorMejoresClinicas::analizarDistancia::Sun Nov 08 01:43:49 COT 2015::Analizar distancia: 22
+[INFO] 1::sisarq.logic.CalculadorMejoresClinicas::analizarTiempoEspera::Sun Nov 08 01:43:49 COT 2015::Analizar tiempo espera: 0
+[INFO] 1::sisarq.logic.CalculadorDistancia::getDistancia::Sun Nov 08 01:43:49 COT 2015::Distancia = 47
+[INFO] 1::sisarq.logic.CalculadorMejoresClinicas::analizarDistancia::Sun Nov 08 01:43:49 COT 2015::Analizar distancia: 47
+[INFO] 1::sisarq.logic.CalculadorMejoresClinicas::analizarTiempoEspera::Sun Nov 08 01:43:49 COT 2015::Analizar tiempo espera: 0
+[INFO] 1::sisarq.logic.CalculadorDistancia::getDistancia::Sun Nov 08 01:43:49 COT 2015::Distancia = 73
+[INFO] 1::sisarq.logic.CalculadorMejoresClinicas::analizarDistancia::Sun Nov 08 01:43:49 COT 2015::Analizar distancia: 73
+[INFO] 1::sisarq.logic.CalculadorMejoresClinicas::analizarTiempoEspera::Sun Nov 08 01:43:49 COT 2015::Analizar tiempo espera: 0
+[INFO] 1::sisarq.logic.CalculadorDistancia::getDistancia::Sun Nov 08 01:43:49 COT 2015::Distancia = 18
+[INFO] 1::sisarq.logic.CalculadorMejoresClinicas::analizarDistancia::Sun Nov 08 01:43:49 COT 2015::Analizar distancia: 18
+[INFO] 1::sisarq.logic.CalculadorMejoresClinicas::analizarTiempoEspera::Sun Nov 08 01:43:49 COT 2015::Analizar tiempo espera: 0
+[INFO] 1::sisarq.logic.CalculadorDistancia::getDistancia::Sun Nov 08 01:43:49 COT 2015::Distancia = 56
+[INFO] 1::sisarq.logic.CalculadorMejoresClinicas::analizarDistancia::Sun Nov 08 01:43:49 COT 2015::Analizar distancia: 56
+[INFO] 1::sisarq.logic.CalculadorMejoresClinicas::analizarTiempoEspera::Sun Nov 08 01:43:49 COT 2015::Analizar tiempo espera: 0
+[INFO] 1::sisarq.logic.CalculadorDistancia::getDistancia::Sun Nov 08 01:43:49 COT 2015::Distancia = 23
+[INFO] 1::sisarq.logic.CalculadorMejoresClinicas::analizarDistancia::Sun Nov 08 01:43:49 COT 2015::Analizar distancia: 23
+[INFO] 1::sisarq.logic.CalculadorMejoresClinicas::analizarTiempoEspera::Sun Nov 08 01:43:49 COT 2015::Analizar tiempo espera: 0
+[INFO] 1::sisarq.logic.CalculadorDistancia::getDistancia::Sun Nov 08 01:43:49 COT 2015::Distancia = 54
+[INFO] 1::sisarq.logic.CalculadorMejoresClinicas::analizarDistancia::Sun Nov 08 01:43:49 COT 2015::Analizar distancia: 54
+[INFO] 1::sisarq.logic.CalculadorMejoresClinicas::analizarTiempoEspera::Sun Nov 08 01:43:49 COT 2015::Analizar tiempo espera: 0
+[INFO] 1::sisarq.logic.CalculadorDistancia::getDistancia::Sun Nov 08 01:43:49 COT 2015::Distancia = 57
+[INFO] 1::sisarq.logic.CalculadorMejoresClinicas::analizarDistancia::Sun Nov 08 01:43:49 COT 2015::Analizar distancia: 57
+[INFO] 1::sisarq.logic.CalculadorMejoresClinicas::analizarTiempoEspera::Sun Nov 08 01:43:49 COT 2015::Analizar tiempo espera: 0
+[INFO] 1::sisarq.logic.CalculadorDistancia::getDistancia::Sun Nov 08 01:43:49 COT 2015::Distancia = 39
+[INFO] 1::sisarq.logic.CalculadorMejoresClinicas::analizarDistancia::Sun Nov 08 01:43:49 COT 2015::Analizar distancia: 39
+[INFO] 1::sisarq.logic.CalculadorMejoresClinicas::analizarTiempoEspera::Sun Nov 08 01:43:49 COT 2015::Analizar tiempo espera: 0
+[INFO] 1::sisarq.logic.CalculadorDistancia::getDistancia::Sun Nov 08 01:43:49 COT 2015::Distancia = 20
+[INFO] 1::sisarq.logic.CalculadorMejoresClinicas::analizarDistancia::Sun Nov 08 01:43:49 COT 2015::Analizar distancia: 20
+[INFO] 1::sisarq.logic.CalculadorMejoresClinicas::analizarTiempoEspera::Sun Nov 08 01:43:49 COT 2015::Analizar tiempo espera: 0
+[INFO] 1::sisarq.logic.CalculadorDistancia::getDistancia::Sun Nov 08 01:43:49 COT 2015::Distancia = 70
+[INFO] 1::sisarq.logic.CalculadorMejoresClinicas::analizarDistancia::Sun Nov 08 01:43:49 COT 2015::Analizar distancia: 70
+[INFO] 1::sisarq.logic.CalculadorMejoresClinicas::analizarTiempoEspera::Sun Nov 08 01:43:49 COT 2015::Analizar tiempo espera: 0
+[INFO] 1::sisarq.logic.CalculadorDistancia::getDistancia::Sun Nov 08 01:43:49 COT 2015::Distancia = 58
+[INFO] 1::sisarq.logic.CalculadorMejoresClinicas::analizarDistancia::Sun Nov 08 01:43:49 COT 2015::Analizar distancia: 58
+[INFO] 1::sisarq.logic.CalculadorMejoresClinicas::analizarTiempoEspera::Sun Nov 08 01:43:49 COT 2015::Analizar tiempo espera: 0
+[INFO] 1::sisarq.logic.CalculadorDistancia::getDistancia::Sun Nov 08 01:43:49 COT 2015::Distancia = 15
+[INFO] 1::sisarq.logic.CalculadorMejoresClinicas::analizarDistancia::Sun Nov 08 01:43:49 COT 2015::Analizar distancia: 15
+[INFO] 1::sisarq.logic.CalculadorMejoresClinicas::analizarTiempoEspera::Sun Nov 08 01:43:49 COT 2015::Analizar tiempo espera: 0
+[INFO] 1::sisarq.logic.CalculadorDistancia::getDistancia::Sun Nov 08 01:43:49 COT 2015::Distancia = 51
+[INFO] 1::sisarq.logic.CalculadorMejoresClinicas::analizarDistancia::Sun Nov 08 01:43:49 COT 2015::Analizar distancia: 51
+[INFO] 1::sisarq.logic.CalculadorMejoresClinicas::analizarTiempoEspera::Sun Nov 08 01:43:49 COT 2015::Analizar tiempo espera: 0
+[INFO] 1::sisarq.logic.CalculadorDistancia::getDistancia::Sun Nov 08 01:43:49 COT 2015::Distancia = 53
+[INFO] 1::sisarq.logic.CalculadorMejoresClinicas::analizarDistancia::Sun Nov 08 01:43:49 COT 2015::Analizar distancia: 53
+[INFO] 1::sisarq.logic.CalculadorMejoresClinicas::analizarTiempoEspera::Sun Nov 08 01:43:49 COT 2015::Analizar tiempo espera: 0
+[INFO] 1::sisarq.logic.CalculadorDistancia::getDistancia::Sun Nov 08 01:43:49 COT 2015::Distancia = 45
+[INFO] 1::sisarq.logic.CalculadorMejoresClinicas::analizarDistancia::Sun Nov 08 01:43:49 COT 2015::Analizar distancia: 45
+[INFO] 1::sisarq.logic.CalculadorMejoresClinicas::analizarTiempoEspera::Sun Nov 08 01:43:49 COT 2015::Analizar tiempo espera: 0
+[INFO] 1::sisarq.logic.CalculadorDistancia::getDistancia::Sun Nov 08 01:43:49 COT 2015::Distancia = 22
+[INFO] 1::sisarq.logic.CalculadorMejoresClinicas::analizarDistancia::Sun Nov 08 01:43:49 COT 2015::Analizar distancia: 22
+[INFO] 1::sisarq.logic.CalculadorMejoresClinicas::analizarTiempoEspera::Sun Nov 08 01:43:49 COT 2015::Analizar tiempo espera: 0
+[INFO] 1::sisarq.logic.CalculadorDistancia::getDistancia::Sun Nov 08 01:43:49 COT 2015::Distancia = 46
+[INFO] 1::sisarq.logic.CalculadorMejoresClinicas::analizarDistancia::Sun Nov 08 01:43:49 COT 2015::Analizar distancia: 46
+[INFO] 1::sisarq.logic.CalculadorMejoresClinicas::analizarTiempoEspera::Sun Nov 08 01:43:49 COT 2015::Analizar tiempo espera: 0
+[INFO] 1::sisarq.logic.CalculadorDistancia::getDistancia::Sun Nov 08 01:43:49 COT 2015::Distancia = 29
+[INFO] 1::sisarq.logic.CalculadorMejoresClinicas::analizarDistancia::Sun Nov 08 01:43:49 COT 2015::Analizar distancia: 29
+[INFO] 1::sisarq.logic.CalculadorMejoresClinicas::analizarTiempoEspera::Sun Nov 08 01:43:49 COT 2015::Analizar tiempo espera: 0
+[INFO] 1::sisarq.logic.CalculadorDistancia::getDistancia::Sun Nov 08 01:43:49 COT 2015::Distancia = 45
+[INFO] 1::sisarq.logic.CalculadorMejoresClinicas::analizarDistancia::Sun Nov 08 01:43:49 COT 2015::Analizar distancia: 45
+[INFO] 1::sisarq.logic.CalculadorMejoresClinicas::analizarTiempoEspera::Sun Nov 08 01:43:49 COT 2015::Analizar tiempo espera: 0
+[INFO] 1::sisarq.logic.CalculadorDistancia::getDistancia::Sun Nov 08 01:43:49 COT 2015::Distancia = 67
+[INFO] 1::sisarq.logic.CalculadorMejoresClinicas::analizarDistancia::Sun Nov 08 01:43:49 COT 2015::Analizar distancia: 67
+[INFO] 1::sisarq.logic.CalculadorMejoresClinicas::analizarTiempoEspera::Sun Nov 08 01:43:49 COT 2015::Analizar tiempo espera: 0
+[INFO] 1::sisarq.logic.CalculadorDistancia::getDistancia::Sun Nov 08 01:43:49 COT 2015::Distancia = 51
+[INFO] 1::sisarq.logic.CalculadorMejoresClinicas::analizarDistancia::Sun Nov 08 01:43:49 COT 2015::Analizar distancia: 51
+[INFO] 1::sisarq.logic.CalculadorMejoresClinicas::analizarTiempoEspera::Sun Nov 08 01:43:49 COT 2015::Analizar tiempo espera: 0
+[INFO] 1::sisarq.logic.CalculadorDistancia::getDistancia::Sun Nov 08 01:43:49 COT 2015::Distancia = 72
+[INFO] 1::sisarq.logic.CalculadorMejoresClinicas::analizarDistancia::Sun Nov 08 01:43:49 COT 2015::Analizar distancia: 72
+[INFO] 1::sisarq.logic.CalculadorMejoresClinicas::analizarTiempoEspera::Sun Nov 08 01:43:49 COT 2015::Analizar tiempo espera: 0
+[INFO] 1::sisarq.logic.CalculadorDistancia::getDistancia::Sun Nov 08 01:43:49 COT 2015::Distancia = 21
+[INFO] 1::sisarq.logic.CalculadorMejoresClinicas::analizarDistancia::Sun Nov 08 01:43:49 COT 2015::Analizar distancia: 21
+[INFO] 1::sisarq.logic.CalculadorMejoresClinicas::analizarTiempoEspera::Sun Nov 08 01:43:49 COT 2015::Analizar tiempo espera: 0
+[INFO] 1::sisarq.logic.CalculadorDistancia::getDistancia::Sun Nov 08 01:43:49 COT 2015::Distancia = 10
+[INFO] 1::sisarq.logic.CalculadorMejoresClinicas::analizarDistancia::Sun Nov 08 01:43:49 COT 2015::Analizar distancia: 10
+[INFO] 1::sisarq.logic.CalculadorMejoresClinicas::analizarTiempoEspera::Sun Nov 08 01:43:49 COT 2015::Analizar tiempo espera: 0
+[INFO] 1::sisarq.logic.CalculadorDistancia::getDistancia::Sun Nov 08 01:43:49 COT 2015::Distancia = 40
+[INFO] 1::sisarq.logic.CalculadorMejoresClinicas::analizarDistancia::Sun Nov 08 01:43:49 COT 2015::Analizar distancia: 40
+[INFO] 1::sisarq.logic.CalculadorMejoresClinicas::analizarTiempoEspera::Sun Nov 08 01:43:49 COT 2015::Analizar tiempo espera: 0

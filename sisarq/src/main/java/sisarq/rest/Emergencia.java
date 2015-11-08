@@ -12,6 +12,7 @@ import javax.ws.rs.core.Response;
 
 import com.sun.security.ntlm.Client;
 
+import sisarg.log.FormatterExample;
 import sisarq.logic.CalculadorDistancia;
 import sisarq.logic.CalculadorMejoresClinicas;
 import sisarq.logic.Cliente;
@@ -37,7 +38,8 @@ public class Emergencia {
     @Path("{id}/{x}/{y}")
 	public Response getStartingPage(@PathParam("id") String id, @PathParam("x") float x, @PathParam("y") float y)
 	{
-		
+		FormatterExample.createHandle("emergencia");
+		FormatterExample.LOGGER.info("Nueva solicitud información clínicas Emergencia");
 		
 		Cliente cliente = new Cliente();
 		cliente.setDocumento(Double.valueOf(id));
@@ -49,8 +51,10 @@ public class Emergencia {
 		cliente.setUbicacionY(y);
 		
 		if(cliente.getCriticidad().compareTo(Criticidad.c4)<0){
+			FormatterExample.LOGGER.info("Agregar cliente a cola de prioridad alta");
 			getColaPrioridadAlta().nuevoCliente(cliente);
 		} else {
+			FormatterExample.LOGGER.info("Agregar cliente a cola de prioridad baja");
 			getColaPrioridadBaja().nuevoCliente(cliente);
 		}
 		
