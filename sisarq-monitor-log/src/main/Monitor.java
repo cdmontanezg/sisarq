@@ -31,7 +31,7 @@ public class Monitor {
                 int i=0;
                 int error=0;
                 while((linea=br.readLine())!=null){
-                     if (linea.contains("ERROR")){
+                     if (linea.contains("ERROR") || linea.contains("SEVERE")|| linea.contains("severe")){
                     	 error++;
                     	 MailSender alerta=new MailSender();
                		  
